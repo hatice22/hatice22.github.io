@@ -1,0 +1,245 @@
+
+.asidepanel
+{
+    border: 3px #B4CFB0;
+    border-left-style: solid; 
+    width: 370px; 
+    padding: 5px; 
+    margin-right:20px; 
+    height: 600px;
+    float: right;
+}
+.maddelerbg{
+
+    font-size: 29px ;
+    border: 10px solid #7eff4f;
+    height: 160px;
+    padding-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.aside1
+{
+    border: 2px solid white;
+    height:fit-content; 
+    width:220px;
+    margin-right: auto; 
+    margin-left: auto; 
+    margin-top:80px; 
+    display: block;
+}
+.aside2
+{
+    border: 2px solid white;
+    height: 250px; 
+    width:250px; 
+    margin-right: auto; 
+    margin-left: auto; 
+    margin-top: 20px; 
+    display: block;
+}
+.box
+{
+    height: 20px; 
+    width: 40px; 
+    display:inline-block;
+}
+
+.modediv
+{
+    border: 1px solid #192229;
+    height: 25px; 
+    width: 150px; 
+    border-radius:100px 100px 100px 100px; 
+    text-align: center;
+    margin-left: auto; 
+    margin-right: auto; 
+    background-color: #192229; 
+    color: white;
+}
+.modebutton
+{
+    border-radius: 100%;
+    border-color: #192229; 
+    height:25px; 
+    width:25px; 
+    float: left;
+}
+
+ol
+{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    font-size:20px;
+    margin-bottom: 10px;
+
+}
+
+#main
+{
+    border: 1px solid white; 
+    padding: 5px; 
+    width:985px; 
+    float: left; 
+    position: absolute; 
+}
+
+ul
+{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+#bir,#iki,#uc,#dort,#bes,#alti,#yedi
+{
+    display:block; 
+    margin:5px; 
+    height: 50px;
+}
+
+#sekiz,#dokuz
+{
+    display:block;
+    margin-left:165px ; 
+    margin-bottom:5px;
+}
+
+.ucsira
+{
+    position: relative;
+    bottom:25px;
+}
+
+.maddeler{
+
+    border: 3px solid ;
+    display:inline-block;
+    width: 50px ;
+    height: 50px;
+    text-align: left;
+    font-size: 9px;
+    padding: 1px;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+   
+}
+.iki
+{
+    width: 536px; 
+    background-color: white ;
+    border-color: white;
+}
+.üc
+{
+    width: 536px; 
+    height: 50px; 
+    text-align: center;
+}
+.onmousemove
+{
+    background-color : black !important;
+    border-color: black !important;
+    color: white !important;
+}
+.white
+{
+    background-color: "white" !important ;
+}
+.floatright{
+    float: right;
+    margin-right: 5px;
+}
+
+.ametaller{
+    background-color: #B4FE98;
+    border-color: #7eff4f;
+    
+
+}
+.ametallerdark
+{
+    background-color: #49FF00;
+    border-color: #32b100;
+    color:white;
+}
+
+.soygazlar{
+
+    background-color: #FBF46D;
+    border-color: #faf033;
+    
+}
+
+
+.alkalimetaller{
+
+    background-color: #FF1700;
+    border-color: #910d01;
+    
+}
+
+.toprakalkalimetaller{
+    background-color: #F9D371;
+    border-color: #ffc635;
+    
+}
+
+.yarimetaller{
+
+    background-color: #91C483;
+    border-color: #72cc59;
+    
+}
+
+
+.halojenler{
+
+    background-color: #FFC600;
+    border-color: #a17f03;
+    
+}
+
+.metaller{
+
+    background-color: #789395;
+    border-color: #506364;
+    
+}
+.metallerdark 
+{
+    background-color: #332FD0;
+    border-color: #0401c4;
+    color: white;
+}
+
+.gecismetalleri{
+    background-color: #F56FAD;
+    border-color: #f73690;
+    
+}
+.gecismetalleridark{
+    background-color: #8848ff ;
+    border-color: #5800FF ;
+    color: white ;
+    
+}
+.lantanidler{
+
+    background-color: #FB7AFC;
+    border-color: #fa40fa;
+    
+}
+
+.aktanidler{
+    background-color: #F0D9E7;
+    border-color:#ecb6d7;
+    
+}
+
+
+
+
+
+

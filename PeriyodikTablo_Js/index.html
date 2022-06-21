@@ -1,0 +1,1090 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Periyodik Tablo</title>
+    <link rel="stylesheet" href="myStyle.css">
+    
+  
+  </head>
+<body>
+<div style="margin-top: 50px;">
+
+  <div id="main">
+    <div id="bir">
+            <button id="H" class="maddeler ametaller" onmousemove="getir(id,className)">
+              <ul id=1 >
+                <li>1</li>
+                <li><b> H </b></li>
+                <li>HİDROJEN  </li>
+                <li>1,008</li>
+              </ul>
+                
+            </button>
+            <button id="He" class="maddeler soygazlar floatright" onmouseover="getir(id,className)" >
+              <ul id=2 >
+                <li>2</li>
+                <li><b>He</b></li>
+                <li>Helyum</li>
+                <li>4,0026</li>
+              </ul>
+            </button>
+    </div> 
+    <div id="iki">
+
+      <button id="Li" class="maddeler alkalimetaller" onmouseover="getir(id,className)">
+        <ul id="3" >
+          <li>3</li>
+          <li><b>Li</b></li>
+          <li>Lityum</li>
+          <li>6,94</li>
+        </ul>
+      </button> 
+      <button id ="Be"class="maddeler toprakalkalimetaller" onmouseover="getir(id,className)">
+        <ul id=4 >
+          <li>4</li>
+          <li> <b>Be</b></li>
+          <li>Berilyum</li>
+          <li>9,0122</li>
+        </ul>
+      </button> 
+      <button id="bos" class="maddeler iki">
+        <ul id="li" style="color: white;">
+          <li>a</li>
+          <li>b<b></b></li>
+          <li>c</li>
+          <li>d</li>
+        </ul>
+      </button>    
+      
+      <button id="B" class="maddeler yarimetaller" onmouseover="getir(id,className)">
+        <ul id=5>
+          <li>5</li>
+          <li><b>B</b></li>
+          <li>Bor</li>
+          <li>10,81</li>
+        </ul>
+      </button> 
+      
+      <button id="C" class="maddeler ametaller" onmouseover="getir(id,className)">
+        <ul id=6> 
+          <li>6</li>
+          <li><b>C</b></li>
+          <li>Karbon</li>
+          <li>12,011</li>
+        </ul>
+      </button>  
+      
+      <button id="N" class="maddeler ametaller" onmouseover="getir(id,className)">
+        <ul id=7>
+          <li>7</li>
+          <li><b>N</b></li>
+          <li>Azot</li>
+          <li>14,007</li>
+        </ul>
+      </button>    
+      
+      <button id="O" class="maddeler ametaller" onmouseover="getir(id,className)">
+        <ul id=8>
+          <li>8</li>
+          <li><b>O</b></li>
+          <li>Oksijen</li>
+          <li>15,999</li>
+        </ul>
+      </button>     
+      
+      <button id="F" class="maddeler halojenler" onmouseover="getir(id,className)">
+        <ul id="9">
+          <li>9</li>
+          <li> <b>F</b></li>
+          <li>Flor</li>
+          <li>18,998</li>
+        </ul>
+      </button>
+      <button id ="Ne" class="maddeler soygazlar" onmouseover="getir(id,className)">
+        <ul id=10>
+          <li>10</li>
+          <li><b>Ne</b></li>
+          <li>Neon</li>
+          <li>20,180</li>
+        </ul>
+      </button>
+
+
+    </div> 
+    <div id="uc"style="position: relative;">
+      <button id="Na" class="maddeler alkalimetaller ucsira" onmouseover="getir(id,className)">
+        <ul id=11>
+          <li>11</li>
+          <li><b>Na</b></li>
+          <li>Sodyum</li>
+          <li>22,990</li>
+        </ul>
+      </button> 
+      <button id="Mg" class="maddeler toprakalkalimetaller ucsira" onmouseover="getir(id,className)">
+        <ul id=12>
+          <li>12</li>
+          <li><b>Mg</b></li>
+          <li>Magnezyum</li>
+          <li>24,305</li>
+        </ul>
+      </button> 
+
+      <button id="ücbos" class="üc">
+      
+      <div id="orta" style="font-size: 40px;">
+        Periyodik Tablo
+      </div>
+      
+      </button> 
+      
+      <button id="Al" class="maddeler metaller ucsira" onmouseover="getir(id,className)">
+        <ul id=13> 
+          <li>13</li>
+          <li><b>Al</b></li>
+          <li>Alüminyum</li>
+          <li>26,982</li>
+        </ul>
+      </button>
+      
+      <button id="Si" class="maddeler yarimetaller ucsira" onmouseover="getir(id,className)">
+        <ul id=14> 
+          <li>14</li>
+          <li><b>Si</b></li>
+          <li>Silisyum</li>
+          <li>28,085</li>
+        </ul>
+      </button>  
+      
+      <button id="P" class="maddeler ametaller ucsira" onmouseover="getir(id,className)">
+        <ul id=15>
+          <li>15</li>
+          <li><b>P</b></li>
+          <li>Fosfor</li>
+          <li>30,974</li>
+        </ul>
+      </button>     
+        
+      <button id="S" class="maddeler ametaller ucsira" onmouseover="getir(id,className)">
+        <ul id=16>
+          <li>16</li>
+          <li><b>S</b></li>
+          <li>Kükürt</li>
+          <li>32,06</li>
+        </ul>
+      </button> 
+      
+      <button id="CI" class="maddeler halojenler ucsira" onmouseover="getir(id,className)">
+        <ul id=17>
+          <li>17</li>
+          <li><b>CI</b></li>
+          <li>Klor</li>
+          <li>35,45</li>
+        </ul>
+      </button>
+      <button id="Ar" class="maddeler soygazlar ucsira" onmouseover="getir(id,className)">
+        <ul id=18>
+          <li>18</li>
+          <li><b>Ar</b></li>
+          <li>Argon</li>
+          <li>39,948</li>
+        </ul>
+      </button>
+    
+    </div>
+    <div id="dort">
+
+      <button id="K" class="maddeler alkalimetaller" onmouseover="getir(id,className)">
+        <ul id=19>
+          <li>19</li>
+          <li><b>K</b></li>
+          <li>Potasyum</li>
+          <li>39,098</li>
+      </button> 
+      <button id="Ca" class="maddeler toprakalkalimetaller" onmouseover="getir(id,className)">
+        <ul id=20>
+          <li>20</li>
+          <li><b>Ca</b></li>
+          <li>Kalsiyum</li>
+          <li>40,078</li>
+        </ul>
+      </button> 
+      <button id="Sc" class="maddeler gecismetalleri" onmouseover="getir(id,className)">
+        <ul id=21>
+          <li>21</li>
+          <li><b>Sc</b></li>
+          <li>Skandiyum</li>
+          <li>44,956</li>
+        </ul>
+      </button>
+      <button id="Ti" class="maddeler gecismetalleri" onmouseover="getir(id,className)">
+        <ul id=22>
+          <li>22</li>
+          <li><b>Ti</b></li>
+          <li>Titanyum</li>
+          <li>47,867</li>
+        </ul>
+      </button>
+      <button id="V" class="maddeler gecismetalleri" onmouseover="getir(id,className)">
+        <ul id=23>
+          <li>23</li>
+          <li><b>V</b></li>
+          <li>Vanadyum</li>
+          <li>50,942</li>
+        </ul>
+      </button> 
+      <button id="Cr" class="maddeler gecismetalleri" onmouseover="getir(id,className)">
+        <ul id=24>
+          <li>24</li>
+          <li><b>Cr</b></li>
+          <li>Krom</li>
+          <li>51,996</li>
+        </ul>
+      </button> 
+      <button id="Mn" class="maddeler gecismetalleri" onmouseover="getir(id,className)">
+        <ul id=25>
+          <li>25</li>
+          <li><b>Mn</b></li>
+          <li>Manganez</li>
+          <li>54,938</li>
+        </ul>
+      </button> 
+      <button id="Fe" class="maddeler gecismetalleri" onmouseover="getir(id,className)">
+        <ul id=26>
+          <li>26</li>
+          <li><b>Fe</b></li>
+          <li>Demir</li>
+          <li>55,845</li>
+        </ul>
+      </button>
+      <button id="Co" class="maddeler gecismetalleri" onmouseover="getir(id,className)">
+        <ul id=27>
+          <li>27</li>
+          <li><b>Co</b></li>
+          <li>Kobalt</li>
+          <li>58,933</li>
+        </ul>
+      </button> 
+      <button id="Ni" class="maddeler gecismetalleri" onmouseover="getir(id,className)">
+        <ul id=28>
+          <li>28</li>
+          <li><b>Ni</b></li>
+          <li>Nikel</li>
+          <li>58,693</li>
+        </ul>
+      </button> 
+      <button id="Cu" class="maddeler gecismetalleri" onmouseover="getir(id,className)">
+        <ul id=29>
+          <li>29</li>
+          <li><b>Cu</b></li>
+          <li>Bakır</li>
+          <li>63,546</li>
+        </ul>
+      </button>
+      <button id="Zn" class="maddeler gecismetalleri" onmouseover="getir(id,className)">
+        <ul id=30>
+          <li>30</li>
+          <li><b>Zn</b></li>
+          <li>Çinko</li>
+          <li>65,38</li>
+        </ul>
+      </button>
+      <button id="Ga" class="maddeler metaller" onmouseover="getir(id,className)">
+        <ul id=31>
+          <li>31</li>
+          <li><b>Ga</b></li>
+          <li>Galyum</li>
+          <li>69,723</li>
+        </ul>
+      </button> 
+      <button id="Ge" class="maddeler yarimetaller" onmouseover="getir(id,className)">
+        <ul id=32>
+          <li>32</li>
+          <li><b>Ge</b></li>
+          <li>Germanyum</li>
+          <li>72,630</li>
+        </ul>
+      </button> 
+      <button id="As" class="maddeler yarimetaller" onmouseover="getir(id,className)">
+        <ul id=33>
+          <li>33</li>
+          <li><b>As</b></li>
+          <li>Arsenik</li>
+          <li>74,922</li>
+        </ul>
+      </button> 
+      <button id="Se" class="maddeler ametaller" onmouseover="getir(id,className)">
+        <ul id=34>
+          <li>34</li>
+          <li><b>Se</b></li>
+          <li>Selenyum</li>
+          <li>78,971</li>
+        </ul>
+      </button>
+      <button id="Br" class="maddeler halojenler" onmouseover="getir(id,className)">
+        <ul id=35>
+          <li>35</li>
+          <li><b>Br</b></li>
+          <li>Brom</li>
+          <li>79,904</li>
+        </ul>
+      </button> 
+      <button id="Kr" class="maddeler soygazlar" onmouseover="getir(id,className)">
+        <ul id=36>
+          <li>36</li>
+          <li><b>Kr</b></li>
+          <li>Kripton</li>
+          <li>83,798</li>
+        </ul>
+      </button> 
+    </div>
+    <div id="bes">
+
+      <button id="Rb" class="maddeler alkalimetaller" onmouseover="getir(id,className)">
+        <ul id=37>
+          <li>37</li>
+          <li><b>Rb</b></li>
+          <li>Rubidyum</li>
+          <li>85,468</li>
+        </ul>
+      </button> 
+      <button id="Sr" class="maddeler toprakalkalimetaller" onmouseover="getir(id,className)">
+        <ul id=38>
+          <li>38</li>
+          <li><b>Sr</b></li>
+          <li>Stronsiyum</li>
+          <li>87,62</li>
+        </ul>
+      </button> 
+      <button id="Y" class="maddeler gecismetalleri" onmouseover="getir(id,className)">
+        <ul id=39>
+          <li>39<li>
+          <li><b>Y</b></li>
+          <li>İtriyum</li>
+          <li>88,906</li>
+        </ul>
+      </button>
+      <button id="Zr" class="maddeler gecismetalleri" onmouseover="getir(id,className)" >
+        <ul id=40>
+          <li>40</li>
+          <li><b>Zr</b></li>
+          <li>Zirkonyum</li>
+          <li>91,224</li>
+        </ul>
+      </button>
+      <button id="Nb" class="maddeler gecismetalleri" onmouseover="getir(id,className)">
+        <ul id=41>
+          <li>41</li>
+          <li><b>Nb</b></li>
+          <li>Niyobyum</li>
+          <li>92,906</li>
+        </ul>
+      </button> 
+      <button id="Mo" class="maddeler gecismetalleri" onmouseover="getir(id,className)">
+        <ul id=42>
+          <li>42</li>
+          <li><b>Mo</b></li>
+          <li>Molibden</li>
+          <li>95,95</li>
+        </ul>
+      </button> 
+      <button id="Tc" class="maddeler gecismetalleri" onmouseover="getir(id,className)">
+        <ul id=43>
+          <li>43</li>
+          <li><b>Tc</b></li>
+          <li>Teknesyum</li>
+          <li>98</li>
+        </ul>
+      </button> 
+      <button id="Ru" class="maddeler gecismetalleri" onmouseover="getir(id,className)">
+        <ul id=44>
+          <li>44</li>
+          <li><b>Ru</b></li>
+          <li>Rutenyum</li>
+          <li>101,07</li>
+        </ul>
+      </button>
+      <button id="Rh" class="maddeler gecismetalleri" onmouseover="getir(id,className)">
+        <ul id=45>
+          <li>45</li>
+          <li><b>Rh</b></li>
+          <li>Rodyum</li>
+          <li>102,91</li>
+        </ul>
+      </button> 
+      <button id="Pd" class="maddeler gecismetalleri" onmouseover="getir(id,className)">
+        <ul id=46>
+          <li>46</li>
+          <li><b>Pd</b></li>
+          <li>Paladyum</li>
+          <li>106,42</li>
+        </ul>
+      </button> 
+      <button id="Ag" class="maddeler gecismetalleri" onmouseover="getir(id,className)">
+        <ul id=47>
+          <li>47</li>
+          <li><b>Ag</b></li>
+          <li>Gümüş</li>
+          <li>107,87</li>
+        </ul>
+      </button>
+      <button id="Cd" class="maddeler gecismetalleri" onmouseover="getir(id,className)">
+        <ul id=48>
+          <li>48</li>
+          <li><b>Cd</b></li>
+          <li>Kadmiyum</li>
+          <li>112,41</li>
+        </ul>
+      </button>
+      <button id="In" class="maddeler metaller" onmouseover="getir(id,className)">
+        <ul id=49>
+          <li>49</li>
+          <li><b>In</b></li>
+          <li>İndiyum</li>
+          <li>114,82</li>
+        </ul>
+      </button> 
+      <button id="Sn" class="maddeler metaller" onmouseover="getir(id,className)">
+        <ul id=50>
+          <li>50</li>
+          <li><b>Sn</b></li>
+          <li>Kalay</li>
+          <li>118,71</li>
+        </ul>
+      </button> 
+      <button id="Sb" class="maddeler yarimetaller" onmouseover="getir(id,className)">
+        <ul id=51>
+          <li>51</li>
+          <li><b>Sb</b></li>
+          <li>Antimon</li>
+          <li>121,76</li>
+        </ul>
+      </button> 
+      <button id="Te" class="maddeler yarimetaller" onmouseover="getir(id,className)">
+        <ul id=52>
+          <li>52</li>
+          <li><b>Te</b></li>
+          <li>Tellür</li>
+          <li>127,60</li>
+        </ul>
+      </button>
+      <button id="I" class="maddeler halojenler" onmouseover="getir(id,className)">
+        <ul id=53>
+          <li>53</li>
+          <li><b>I</b></li>
+          <li>İyot</li>
+          <li>126,90</li>
+        </ul>
+      </button> 
+      <button id="Xe" class="maddeler soygazlar" onmouseover="getir(id,className)">
+        <ul id=54>
+          <li>54</li>
+          <li><b>Xe</b></li>
+          <li>Ksenon</li>
+          <li>131,26</li>
+        </ul>
+      </button> 
+    </div>
+    <div id="alti">
+      <button id="Cs" class="maddeler alkalimetaller" onmouseover="getir(id,className)">
+        <ul id=55>
+          <li>55</li>
+          <li><b>Cs</b></li>
+          <li>Sezyum</li>
+          <li>132,91</li>
+        </ul>
+      </button> 
+      <button id="Ba" class="maddeler toprakalkalimetaller" onmouseover="getir(id,className)">
+        <ul id=56>
+          <li>56</li>
+          <li><b>Ba</b></li>
+          <li>Baryum</li>
+          <li>137,33</li>
+        </ul>
+      </button> 
+      <button id="LL"  class="maddeler lantanidler">
+        <ul>
+          <li>5</li>
+          <li>7</li>
+          <li>7</li>
+          <li>1</li>
+        </ul>
+      </button>
+      <button id="Hf" class="maddeler gecismetalleri" onmouseover="getir(id,className)">
+        <ul id=72>
+          <li>72</li>
+          <li><b>Hf</b></li>
+          <li>Hafniyum</li>
+          <li>178,49</li>
+        </ul>
+      </button>
+      <button id="Ta" class="maddeler gecismetalleri" onmouseover="getir(id,className)">
+        <ul id=73>
+          <li>73</li>
+          <li><b>Ta</b></li>
+          <li>Tantal</li>
+          <li>180,95</li>
+        </ul>
+      </button> 
+      <button id="W" class="maddeler gecismetalleri" onmouseover="getir(id,className)">
+        <ul id=74>
+          <li>74</li>
+          <li><b>W</b></li>
+          <li>Tungsten</li>
+          <li>183,84</li>
+        </ul>
+      </button> 
+      <button id="Re" class="maddeler gecismetalleri" onmouseover="getir(id,className)">
+        <ul id=75>
+          <li>75</li>
+          <li><b>Re</b></li>
+          <li>Renyum</li>
+          <li>186,21</li>
+        </ul>
+      </button> 
+      <button id="Os" class="maddeler gecismetalleri" onmouseover="getir(id,className)">
+        <ul id=76>
+          <li>76</li>
+          <li><b>Os</b></li>
+          <li>Osmiyum</li>
+          <li>190,23</li>
+        </ul>
+      </button>
+      <button id="Ir" class="maddeler gecismetalleri" onmouseover="getir(id,className)">
+        <ul id=77>
+          <li>77</li>
+          <li><b>Ir</b></li>
+          <li>İridyum</li>
+          <li>192,22</li>
+        </ul>
+      </button> 
+      <button id="Pt" class="maddeler gecismetalleri" onmouseover="getir(id,className)">
+        <ul id=78>
+          <li>78</li>
+          <li><b>Pt</b></li>
+          <li>Platin</li>
+          <li>195,08</li>
+        </ul>
+      </button> 
+      <button id="Au" class="maddeler gecismetalleri" onmouseover="getir(id,className)">
+        <ul id=79>
+          <li>79</li>
+          <li><b>Au</b></li>
+          <li>Altın</li>
+          <li>196,97</li>
+        </ul>
+      </button>
+      <button id="Hg" class="maddeler gecismetalleri" onmouseover="getir(id,className)">
+        <ul id=80>
+          <li>80</li>
+          <li><b>Hg</b></li>
+          <li>Cıva</li>
+          <li>200,59</li>
+        </ul>
+      </button>
+      <button id="Tı" class="maddeler metaller" onmouseover="getir(id,className)">
+        <ul id=81>
+          <li>81</li>
+          <li><b>Tı</b></li>
+          <li>Talyum</li>
+          <li>204,38</li>
+        </ul>
+      </button> 
+      <button id="Pb" class="maddeler metaller" onmouseover="getir(id,className)">
+        <ul id=82>
+          <li>82</li>
+          <li><b>Pb</b></li>
+          <li>Kurşun</li>
+          <li>207,2</li>
+        </ul>
+      </button> 
+      <button id="Bi" class="maddeler metaller" onmouseover="getir(id,className)">
+        <ul id=83>
+          <li>83</li>
+          <li><b>Bi</b></li>
+          <li>Bizmut</li>
+          <li>208,98</li>
+        </ul>
+      </button> 
+      <button id="Po" class="maddeler yarimetaller" onmouseover="getir(id,className)">
+        <ul id=84>
+          <li>84</li>
+          <li><b>Po</b></li>
+          <li>Polonyum</li>
+          <li>209</li>
+        </ul>
+      </button>
+      <button id="At" class="maddeler halojenler" onmouseover="getir(id,className)">
+        <ul id=85>
+          <li>85</li>
+          <li><b>At</b></li>
+          <li>Astatin</li>
+          <li>210</li>
+        </ul>
+      </button> 
+      <button id="Rn" class="maddeler soygazlar" onmouseover="getir(id,className)">
+        <ul id=86>
+          <li>86</li>
+          <li><b>Rn</b></li>
+          <li>Radon</li>
+          <li>222</li>
+        </ul>
+      </button> 
+    </div>
+    <div id="yedi">
+      <button id="Fr" class="maddeler alkalimetaller" onmouseover="getir(id,className)">
+        <ul id=87>
+          <li>87</li>
+          <li><b>Fr</b></li>
+          <li>Fransiyum</li>
+          <li>223</li>
+        </ul>
+      </button> 
+      <button id="Ra" class="maddeler toprakalkalimetaller" onmouseover="getir(id,className)">
+        <ul id=88>
+          <li>88</li>
+          <li><b>Ra</b></li>
+          <li>Radyum</li>
+          <li>226</li>
+        </ul>
+      </button> 
+      <button id="AA"  class="maddeler aktanidler">
+        <ul>
+          <li>8</li>
+          <li>9</li>
+          <li>10</li>
+          <li>3</li>
+        </ul>
+      </button>
+      <button id="Rf" class="maddeler gecismetalleri" onmouseover="getir(id,className)">
+        <ul id=104>
+          <li>104</li>
+          <li><b>Rf</b></li>
+          <li>Rutherforyum</li>
+          <li>267</li>
+        </ul>
+      </button>
+      <button id="Db" class="maddeler gecismetalleri" onmouseover="getir(id,className)">
+        <ul id=105>
+          <li>105</li>
+          <li><b>Db</b></li>
+          <li>Dubniyum</li>
+          <li>268</li>
+        </ul>
+      </button> 
+      <button id="Sg" class="maddeler gecismetalleri" onmouseover="getir(id,className)">
+        <ul id=106>
+          <li>106</li>
+          <li><b>Sg</b></li>
+          <li>Seaborgiyum</li>
+          <li>269</li>
+        </ul>
+      </button> 
+      <button id="Bh" class="maddeler gecismetalleri" onmouseover="getir(id,className)">
+        <ul id=107>
+          <li>107</li>
+          <li><b>Bh</b></li>
+          <li>Bohriyum</li>
+          <li>270</li>
+        </ul>
+      </button> 
+      <button id="Hs" class="maddeler gecismetalleri" onmouseover="getir(id,className)">
+        <ul id=108>
+          <li>108</li>
+          <li><b>Hs</b></li>
+          <li>Hassiyum</li>
+          <li>277</li>
+        </ul>
+      </button>
+      <button id="Mt" class="maddeler metaller" onmouseover="getir(id,className)">
+        <ul id=109>
+          <li>109</li>
+          <li><b>Mt</b></li>
+          <li>Meitneriyum</li>
+          <li>278</li>
+        </ul>
+      </button> 
+      <button id="Ds" class="maddeler metaller" onmouseover="getir(id,className)">
+        <ul id=110>
+          <li>110</li>
+          <li><b>Ds</b></li>
+          <li>Darmstadtiyum</li>
+          <li>281</li>
+        </ul>
+      </button> 
+      <button id="Rg" class="maddeler metaller" onmouseover="getir(id,className)">
+        <ul id=111>
+          <li>111</li>
+          <li><b>Rg</b></li>
+          <li>Röntgenyum</li>
+          <li>282</li>
+        </ul>
+      </button>
+      <button id="Cn" class="maddeler gecismetalleri" onmouseover="getir(id,className)">
+        <ul id=112>
+          <li>112</li>
+          <li><b>Cn</b></li>
+          <li>Kopernikyum</li>
+          <li>285</li>
+        </ul>
+      </button>
+      <button id="Nh" class="maddeler metaller" onmouseover="getir(id,className)">
+        <ul id=113>
+          <li>113</li>
+          <li><b>Nh</b></li>
+          <li>Nihoniyum</li>
+          <li>286</li>
+        </ul>
+      </button> 
+      <button id="FL" class="maddeler metaller" onmouseover="getir(id,className)">
+        <ul id=114>
+          <li>114</li>
+          <li><b>FL</b></li>
+          <li>Flerovyum</li>
+          <li>289</li>
+        </ul>
+      </button> 
+      <button id="Mc" class="maddeler metaller" onmouseover="getir(id,className)">
+        <ul id=115>
+          <li>115</li>
+          <li><b>Mc</b></li>
+          <li>Moskoviyum</li>
+          <li>290</li>
+        </ul>
+      </button> 
+      <button id="Lv" class="maddeler metaller" onmouseover="getir(id,className)">
+        <ul id=116>
+          <li>116</li>
+          <li><b>Lv</b></li>
+          <li>Livermoryum</li>
+          <li>293</li>
+        </ul>
+      </button>
+      <button id="Ts" class="maddeler metaller" onmouseover="getir(id,className)">
+        <ul id=117>
+          <li>117</li>
+          <li><b>Ts</b></li>
+          <li>Tennesin</li>
+          <li>294</li>
+        </ul>
+      </button> 
+      <button id="Og" class="maddeler metaller" onmouseover="getir(id,className)">
+        <ul id=118>
+          <li>118</li>
+          <li><b>Og</b></li>
+          <li>Oganesson</li>
+          <li>294</li>
+        </ul>
+      </button> 
+    </div>
+    <div id="sekiz" style="margin-top:35px;">
+      <button id="La" class="maddeler lantanidler" onmouseover="getir(id,className)">
+        <ul id=57>
+          <li>57</li>
+          <li><b>La</b></li>
+          <li>Lantan</li>
+          <li>138,91</li>
+        </ul>
+      </button> 
+      <button id="Ce" class="maddeler lantanidler" onmouseover="getir(id,className)">
+        <ul id=58>
+          <li>58</li>
+          <li><b>Ce</b></li>
+          <li>Seryum</li>
+          <li>140,12</li>
+        </ul>
+      </button> 
+      <button id="Pr" class="maddeler lantanidler" onmouseover="getir(id,className)">
+        <ul id=59>
+          <li>59</li>
+          <li><b>Pr</b></li>
+          <li>Praseodim</li>
+          <li>140,91</li>
+        </ul>
+      </button>
+      <button id="Nd" class="maddeler lantanidler" onmouseover="getir(id,className)">
+        <ul id=60>
+          <li>60</li>
+          <li><b>Nd</b></li>
+          <li>Neodimyum</li>
+          <li>144,24</li>
+        </ul>
+      </button>
+      <button id="Pm" class="maddeler lantanidler" onmouseover="getir(id,className)">
+        <ul id=61>
+          <li>61</li>
+          <li><b>Pm</b></li>
+          <li>Prometyum</li>
+          <li>145</li>
+        </ul>
+      </button> 
+      <button id="Sm" class="maddeler lantanidler" onmouseover="getir(id,className)">
+        <ul id=62>
+          <li>62</li>
+          <li><b>Sm</b></li>
+          <li>Samaryum</li>
+          <li>150,36</li>
+        </ul>
+      </button> 
+      <button id="Eu" class="maddeler lantanidler" onmouseover="getir(id,className)">
+        <ul id=63>
+          <li>63</li>
+          <li><b>Eu</b></li>
+          <li>Evropiyum</li>
+          <li>151,96</li>
+        </ul>
+      </button> 
+      <button id="Gd" class="maddeler lantanidler" onmouseover="getir(id,className)">
+        <ul id=64>
+          <li>64</li>
+          <li><b>Gd</b></li>
+          <li>Gadolinyum</li>
+          <li>157,25</li>
+        </ul>
+      </button>
+      <button id="Tb" class="maddeler lantanidler" onmouseover="getir(id,className)">
+        <ul id=65>
+          <li>65</li>
+          <li><b>Tb</b></li>
+          <li>Terbiyum</li>
+          <li>158,93</li>
+        </ul>
+      </button> 
+      <button id="Dy" class="maddeler lantanidler" onmouseover="getir(id,className)" >
+        <ul id=66>
+          <li>66</li>
+          <li><b>Dy</b></li>
+          <li>Disprozyum</li>
+          <li>162,50</li>
+        </ul>
+      </button> 
+      <button id="Ho" class="maddeler lantanidler" onmouseover="getir(id,className)">
+        <ul id=67>
+          <li>67</li>
+          <li><b>Ho</b></li>
+          <li>Holmiyum</li>
+          <li>164,93</li>
+        </ul>
+      </button>
+      <button id="Er" class="maddeler lantanidler" onmouseover="getir(id,className)">
+        <ul id=68>
+          <li>68</li>
+          <li><b>Er</b></li>
+          <li>Erbiyum</li>
+          <li>167,26</li>
+        </ul> 
+      </button>
+      <button id="Tm" class="maddeler lantanidler" onmouseover="getir(id,className)">
+        <ul id=69>
+          <li>69</li>
+          <li><b>Tm</b></li>
+          <li>Tulyum</li>
+          <li>168,93</li>
+        </ul>
+      </button> 
+      <button id="Yb" class="maddeler lantanidler" onmouseover="getir(id,className)">
+        <ul id=70>
+          <li>70</li>
+          <li><b>Yb</b></li>
+          <li>İterbiyum</li>
+          <li>173,05</li>
+        </ul>
+      </button> 
+      <button id="Lu" class="maddeler lantanidler" onmouseover="getir(id,className)">
+        <ul id=71>
+          <li>71</li>
+          <li><b>Lu</b></li>
+          <li>Lutesyum</li>
+          <li>174,97</li>
+        </ul>
+      </button>
+    
+    
+    </div>
+    <div id="dokuz" style="margin-top:5px;">
+
+      <button id="Ac" class="maddeler aktanidler" onmouseover="getir(id,className)">
+        <ul id=89>
+          <li>89</li>
+          <li><b>Ac</b></li>
+          <li>Aktinyum</li>
+          <li>227</li>
+        </ul>
+      </button> 
+      <button id="Th" class="maddeler aktanidler" onmouseover="getir(id,className)">
+        <ul id=90>
+          <li>90</li>
+          <li><b>Th</b></li>
+          <li>Toryum</li>
+          <li>232,04</li>
+        </ul>
+      </button> 
+      <button id="Pa" class="maddeler aktanidler" onmouseover="getir(id,className)">
+        <ul id=92>
+          <li>92</li>
+          <li><b>Pa</b></li>
+          <li>Protaktinyum</li>
+          <li>231,04</li>
+        </ul>
+      </button>
+      <button id="U" class="maddeler aktanidler" onmouseover="getir(id,className)">
+        <ul id=92>
+          <li>92</li>
+          <li><b>U</b></li>
+          <li>Uranyum</li>
+          <li>238,03</li>
+        </ul>
+      </button>
+      <button id="Np" class="maddeler aktanidler" onmouseover="getir(id,className)">
+        <ul id=93>
+          <li>93</li>
+          <li><b>Np</b></li>
+          <li>Neptünyüm</li>
+          <li>237</li>
+        </ul>
+      </button> 
+      <button id="Pu" class="maddeler aktanidler" onmouseover="getir(id,className)">
+        <ul id=94>
+          <li>94</li>
+          <li><b>Pu</b></li>
+          <li>Plütonyum</li>
+          <li>244</li>
+        </ul>
+      </button> 
+      <button id="Am" class="maddeler aktanidler" onmouseover="getir(id,className)">
+        <ul id=95>
+          <li>95</li>
+          <li><b>Am</b></li>
+          <li>Amerikyum</li>
+          <li>243</li>
+        </ul>
+      </button> 
+      <button id="Cm" class="maddeler aktanidler" onmouseover="getir(id,className)">
+        <ul id=96>
+          <li>96</li>
+          <li><b>Cm</b></li>
+          <li>Küriyum</li>
+          <li>247</li>
+        </ul>
+      </button>
+      <button id="Bk" class="maddeler aktanidler" onmouseover="getir(id,className)">
+        <ul id=97>
+          <li>97</li>
+          <li><b>Bk</b></li>
+          <li>Berkelyum</li>
+          <li>247</li>
+        </ul>
+      </button> 
+      <button id="Cf" class="maddeler aktanidler" onmouseover="getir(id,className)">
+        <ul id=98>
+          <li>98</li>
+          <li><b>Cf</b></li>
+          <li>Kaliforniyum</li>
+          <li>251</li>
+        </ul>
+      </button> 
+      <button id="Es" class="maddeler aktanidler" onmouseover="getir(id,className)">
+        <ul id=99>
+          <li>99</li>
+          <li><b>Es</b></li>
+          <li>Aynştaynyum</li>
+          <li>252</li>
+        </ul>
+      </button>
+      <button id="Fm" class="maddeler aktanidler" onmouseover="getir(id,className)">
+        <ul id=100>
+          <li>100</li>
+          <li><b>Fm</b></li>
+          <li>Fermiyum</li>
+          <li>257</li>
+        </ul>
+      </button>
+      <button id="Md" class="maddeler aktanidler" onmouseover="getir(id,className)">
+        <ul id=101>
+          <li>101</li>
+          <li><b>Md</b></li>
+          <li>Mendelevyum</li>
+          <li>258</li>
+        </ul>
+      </button> 
+      <button id="No" class="maddeler aktanidler" onmouseover="getir(id,className)">
+        <ul id=102>
+          <li>102</li>
+          <li><b>No</b></li>
+          <li>Nobelyum</li>
+          <li>259</li>
+        </ul>
+      </button> 
+      <button id="Lr" class="maddeler aktanidler" onmouseover="getir(id,className)">
+        <ul id=103>
+          <li>103</li>
+          <li><b>Lr</b></li>
+          <li>Lavrensiyum</li>
+          <li>266</li>
+        </ul>
+      </button>
+
+    </div>
+  </div>
+
+  <div id="aside" class="asidepanel">
+
+    <div id="aside1" class="aside1">
+      <div id="demo" class="ametaller maddelerbg">
+        <ul>
+          <li>1</li>
+          <li><b>H</b></li>
+          <li>HİDROJEN</li>
+          <li>1,008</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="aside2" class="aside2">
+      <ol id="ol">
+        <li id="ametaller" onmousemove="wmetal(id)">
+          <div id="aside5" class="ametaller box"></div> Ametaller
+        </li>
+        <li id="soygazlar" onmousemove="wmetal(id)">
+          <div class="soygazlar box"></div> Soygazlar
+        </li>
+        <li id="alkalimetaller" onmousemove="wmetal(id)">
+          <div class="alkalimetaller box"></div> Alkali metaller
+        </li>
+        <li id="toprakalkalimetaller" onmousemove="wmetal(id)">
+          <div class="toprakalkalimetaller box"></div> Toprak alkali metaller
+        </li>
+        <li id="yarimetaller"  onmousemove="wmetal(id)">
+          <div class="yarimetaller box"></div> Yarı metaller
+        </li>
+        <li id="halojenler"  onmousemove="wmetal(id)">
+          <div class="halojenler box"></div> Halojenler
+        </li>
+        <li id="metaller"  onmousemove="wmetal(id)">
+          <div id="aside4" class="metaller box"></div> Metaller
+        </li>
+        <li id="gecismetalleri"  onmousemove="wmetal(id)">
+          <div id="aside3" class="gecismetalleri box"></div> Geçiş Metalleri
+        </li>
+        <li id="lantanidler"  onmousemove="wmetal(id)">
+          <div class="lantanidler box"></div> Lantanidler
+        </li>
+        <li id="aktanidler"  onmousemove="wmetal(id)">
+          <div class="aktanidler box"></div> Aktanidler
+        </li>
+      </ol>
+
+      <div id="mode" class="modediv">
+      <button name=1  id="button" class="modebutton" onclick="dark(name)" ></button>
+        <p style="display: inline;" id="but">Dark Mode</p>
+      </div>
+    
+    </div>
+
+  </div>
+
+</div>
+
+<script type="text/javascript" src="myScript.js"></script>
+
+</body>
+</html>
